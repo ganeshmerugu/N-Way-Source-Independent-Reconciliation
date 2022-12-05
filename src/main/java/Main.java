@@ -4,8 +4,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println(args[0]);
-        FileReader fr1 = new FileReader("/Users/saiprasad/input_1.csv");
-        FileReader fr2 = new FileReader("/Users/saiprasad/input_2.csv");
+        FileReader fr1 = new FileReader("/Users/ganes/input_1.csv");
+        FileReader fr2 = new FileReader("/Users/ganes/input_2.csv");
         BufferedReader br1 = new BufferedReader(fr1);
         BufferedReader br2 = new BufferedReader(fr2);
         String heading1 = br1.readLine();
